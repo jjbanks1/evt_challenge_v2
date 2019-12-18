@@ -7,7 +7,7 @@ pip install -r requirements.txt
 
 Sample Call:
 
-python EXIF.py testfiles/file?.jpg testfiles/subdir/flooding.jpg testfiles/sunrset_philippines.jpg
+python jpg2location.py testfiles/file?.jpg testfiles/subdir/flooding.jpg testfiles/sunrset_philippines.jpg
 
 
 Results:
@@ -32,4 +32,16 @@ Cleanup:
 rm location_cache.json
 
 rm *.log
+
+
+Create CSV Output:
+
+python jpg2location.py testfiles/file?.jpg testfiles/subdir/flooding.jpg testfiles/sunrset_philippines.jpg > out.csv
+
+
+Run Unit Tests:
+
+python jpg2locationtest.py
+
+
 
