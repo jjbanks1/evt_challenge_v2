@@ -11,5 +11,3 @@ Results:
 "testfiles/file5.jpg", [NO_GEOCODE]
 "testfiles/subdir/flooding.jpg", 77060
 "testfiles/sunrset_philippines.jpg", 5316
-
-
