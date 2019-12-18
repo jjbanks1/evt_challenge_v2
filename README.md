@@ -1,6 +1,9 @@
 # evt_challenge_v2
 
 **Prequesite Install:**
+
+**--Linux Install from Commandline--**
+
 sudo apt -y install git python-pip python3
 
 git clone https://github.com/jjbanks1/evt_challenge_v2.git
@@ -8,6 +11,12 @@ git clone https://github.com/jjbanks1/evt_challenge_v2.git
 cd evt_challenge_v2/
 
 pip install -r requirements.txt
+
+**--Windows Install from Commandline--**
+
+python
+
+<Click Install Button>
 
 
 **Sample Call:**
@@ -39,10 +48,11 @@ rm location_cache.json
 rm *.log
 
 
-**Create CSV Output:**
+**CSV Output:**
 
 python jpg2location.py testfiles/file?.jpg testfiles/subdir/flooding.jpg testfiles/sunrset_philippines.jpg > out.csv
 
+<Double click in file exporter window>
 
 **Run Unit Tests:**
 
