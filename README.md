@@ -26,3 +26,10 @@ Results:
 
 "testfiles/sunrset_philippines.jpg", 5316
 
+
+Cleanup:
+
+rm location_cache.json
+
+rm *.log
+
