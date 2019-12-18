@@ -205,7 +205,9 @@ class Jpg2Location():
 				print('"{}", {}'.format(path_name, self.config['tags']['not_jpeg']))
 			if file is not None:
 				file.close()
-		except FileNotFoundError:
+		except IOError: # Works in Python 2 where FileNotFoundError only works in Python 3
+			print('"{}", {}'.format(path_name, self.config['tags']['file_not_found']))
+		except FileNotFoundError: # Doesn't exist in Python 2
 			print('"{}", {}'.format(path_name, self.config['tags']['file_not_found']))
 		except OSError as ex:
 			print('"{}", {}'.format(path_name, self.config['tags']['internal_error']))

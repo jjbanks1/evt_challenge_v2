@@ -1,9 +1,9 @@
 import unittest
 import jpg2location
-#try:
-#    from StringIO import StringIO ## for Python 2
-#except ImportError:
-from io import StringIO ## for Python 3
+try:
+    from StringIO import StringIO ## for Python 2
+except ImportError:
+    from io import StringIO ## for Python 3
 import sys
 
 
