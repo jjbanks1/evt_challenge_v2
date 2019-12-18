@@ -1,16 +1,16 @@
 # evt_challenge_v2
 
-Prequesite Install:
+**Prequesite Install:**
 
 pip install -r requirements.txt
 
 
-Sample Call:
+**Sample Call:**
 
 python jpg2location.py testfiles/file?.jpg testfiles/subdir/flooding.jpg testfiles/sunrset_philippines.jpg
 
 
-Results:
+**Results:**
 
 "testfiles\file1.jpg", 75204
 
@@ -27,19 +27,19 @@ Results:
 "testfiles/sunrset_philippines.jpg", 5316
 
 
-Cleanup:
+**Cleanup:**
 
 rm location_cache.json
 
 rm *.log
 
 
-Create CSV Output:
+**Create CSV Output:**
 
 python jpg2location.py testfiles/file?.jpg testfiles/subdir/flooding.jpg testfiles/sunrset_philippines.jpg > out.csv
 
 
-Run Unit Tests:
+**Run Unit Tests:**
 
 python jpg2locationtest.py
 
