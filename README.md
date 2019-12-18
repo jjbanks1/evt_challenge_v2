@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ```bash
 python
 ```
-Click Install Button
+*Click Install Button in Window*
 
 
 ## Sample Call:
@@ -51,8 +51,9 @@ rm *.log
 ```bash
 python jpg2location.py testfiles/file?.jpg testfiles/subdir/flooding.jpg testfiles/sunrset_philippines.jpg > out.csv
 ```
-
-Double click in file exporter window
+*1. Open file exporter window*
+*1. Navigate to folder*
+*1. Double click out.csv in file exporter window*
 
 ## Run Unit Tests:
 
