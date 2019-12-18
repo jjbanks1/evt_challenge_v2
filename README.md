@@ -1,9 +1,11 @@
 # evt_challenge_v2
 
 Sample Call:
+
 python EXIF.py testfiles/file?.jpg testfiles/subdir/flooding.jpg testfiles/sunrset_philippines.jpg
 
 Results:
+
 "testfiles/file1.jpg", 75204
 "testfiles/file2.jpg", [NOT_JPEG]
 "testfiles/file3.jpg", [NO_GEOCODE]
