@@ -1,0 +1,18 @@
+{
+	"logging":{
+		"filename":"app.log",
+		"level":"WARNING" 
+	},
+	"cache":{
+		"filename":"location_cache.json" 
+	},
+	"geocoding": {
+		"user_agent":"jjbanksevt"
+	},
+	"tags": {
+		"no_geocode":"[NO_GEOCODE]",
+		"not_jpeg":"[NOT_JPEG]",
+		"file_not_found":"[FILE_NOT_FOUND]",
+		"internal_error":"[INTERNAL_ERROR]"
+	}
+}
