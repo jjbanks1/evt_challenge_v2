@@ -1,0 +1,6 @@
+pip install exifread
+pip install reverse_geocoder
+pip install geocoder
+#pip install geopy
+#pip install pyproj
+#pip install LatLon
