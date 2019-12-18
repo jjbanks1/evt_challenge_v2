@@ -1,2 +1,3 @@
-pip install exifread
-pip install geocoder
+ExifRead==2.1.2
+geocoder==1.38.1
+
