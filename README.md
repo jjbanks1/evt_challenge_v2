@@ -1,6 +1,11 @@
 # evt_challenge_v2
 
 **Prequesite Install:**
+sudo apt -y install git python-pip python3
+
+git clone https://github.com/jjbanks1/evt_challenge_v2.git
+
+cd evt_challenge_v2/
 
 pip install -r requirements.txt
 
