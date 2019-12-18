@@ -1,8 +1,14 @@
 # evt_challenge_v2
 
+Prequesite Install:
+
+pip install -r requirements.txt
+
+
 Sample Call:
 
 python EXIF.py testfiles/file?.jpg testfiles/subdir/flooding.jpg testfiles/sunrset_philippines.jpg
+
 
 Results:
 
