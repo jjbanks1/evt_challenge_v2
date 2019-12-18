@@ -1,8 +1,8 @@
 # evt_challenge_v2
 
-##Prequesite Install:
+## Prequesite Install:
 
-**--Linux Install from Commandline--**
+**Linux Install from Commandline**
 
 ```bash
 sudo apt -y install git python-pip python3
@@ -11,7 +11,7 @@ cd evt_challenge_v2/
 pip install -r requirements.txt
 ```
 
-**--Windows Install from Commandline--**
+**Windows Install from Commandline**
 
 ```bash
 python
@@ -19,7 +19,7 @@ python
 Click Install Button
 
 
-##Sample Call:
+## Sample Call:
 
 ```bash
 python jpg2location.py testfiles/file?.jpg testfiles/subdir/flooding.jpg testfiles/sunrset_philippines.jpg
@@ -46,7 +46,7 @@ rm *.log
 ```
 
 
-##CSV Output:
+## CSV Output:
 
 ```bash
 python jpg2location.py testfiles/file?.jpg testfiles/subdir/flooding.jpg testfiles/sunrset_philippines.jpg > out.csv
@@ -54,7 +54,7 @@ python jpg2location.py testfiles/file?.jpg testfiles/subdir/flooding.jpg testfil
 
 Double click in file exporter window
 
-##Run Unit Tests:
+## Run Unit Tests:
 
 ```bash
 python jpg2locationtest.py
