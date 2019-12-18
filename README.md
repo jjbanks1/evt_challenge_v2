@@ -52,8 +52,11 @@ rm *.log
 python jpg2location.py testfiles/file?.jpg testfiles/subdir/flooding.jpg testfiles/sunrset_philippines.jpg > out.csv
 ```
 *1. Open file exporter window*
-*1. Navigate to folder*
-*1. Double click out.csv in file exporter window*
+
+*2. Navigate to folder*
+
+*3. Double click out.csv in file exporter window*
+
 
 ## Run Unit Tests:
 
